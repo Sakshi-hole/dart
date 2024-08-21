@@ -1,8 +1,8 @@
- void main() {
-  int i = 10;
-  for (i = 1; i <= 10; i++) {
+// Write a program to print numbers starting from 35 to 55
+
+void main() {
+  int i = 1;
+  for (i = 31; i <= 55; i++) {
     print(i);
   }
-} 
-
-
+}
