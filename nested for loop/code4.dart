@@ -11,16 +11,11 @@ void main() {
       stdout.write('$numberToPrint');
       numberToPrint--;
 
-      // Print spaces between numbers
       if (j < i) {
-        print('  '); // Adjust spaces as needed for alignment
+        print('  ');
       }
     }
-
-    // Move to the next line
-    print('');
-
-    // Update currentNumber for the next row
+print('');
     currentNumber -= i;
   }
 }
